@@ -19,11 +19,12 @@
 
     <spring.version>4.2.4.RELEASE</spring.version>
     <java.version>1.8</java.version>
-    <jdbc.driver.version>5.1.38</jdbc.driver.version>
+    <jdbc.driver.version>8.0.11</jdbc.driver.version>
     <aspectj.version>1.7.4</aspectj.version>
     <javax.servlet-api.version>3.1.0</javax.servlet-api.version>
     <jsp-api.version>2.2</jsp-api.version>
     <jstl.version>1.2</jstl.version>
+    <jackson.version>2.5.3</jackson.version>
     <mybatis.version>3.2.5</mybatis.version>
     <mybatis-spring.version>1.2.2</mybatis-spring.version>
     <maven.test.skip>true</maven.test.skip>
@@ -114,6 +115,14 @@
       <groupId>javax.servlet</groupId>
       <artifactId>jstl</artifactId>
       <version>${jstl.version}</version>
+    </dependency>
+    <!-- End: Servlet相关依赖包 -->
+
+    <!-- Start: jackson相关依赖包 -->
+    <dependency>
+      <groupId>com.fasterxml.jackson.core</groupId>
+      <artifactId>jackson-databind</artifactId>
+      <version>${jackson.version}</version>
     </dependency>
     <!-- End: Servlet相关依赖包 -->
   </dependencies>
