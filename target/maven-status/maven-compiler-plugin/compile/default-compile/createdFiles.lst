@@ -1,0 +1,5 @@
+com\ssm\demo\entity\Description.class
+com\ssm\demo\controller\DescriptionControler.class
+com\ssm\demo\service\impl\DescriptionServiceImpl.class
+com\ssm\demo\service\DescriptionService.class
+com\ssm\demo\dao\DescriptionDao.class
